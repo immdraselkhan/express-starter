@@ -1,6 +1,6 @@
 # ExpressJS
 
-Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. [Documentation](https://expressjs.com/en/starter/installing.html)
+Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. [Documentation](https://expressjs.com/en/starter/installing.html).
 
 ## Initial setup
 
@@ -27,7 +27,7 @@ Express.js, or simply Express, is a back end web application framework for build
   });
 ```
 5. To start the app, run "node index.js"
-6. Install nodemon [Docs:](https://www.npmjs.com/package/nodemon) that will help us to automatically restart the node app when file changes in the directory are detected, run "npm install -g nodemon"
+6. Install nodemon [Docs](https://www.npmjs.com/package/nodemon), that will help us to automatically restart the node app when file changes in the directory are detected, run "npm install -g nodemon"
 7. Start the app, run "nodemon index.js"
 8. Then, load http://localhost:8000 in a browser to see the output
 
