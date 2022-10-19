@@ -1,6 +1,6 @@
 # ExpressJS
 
-Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. [Documentation](https://expressjs.com/en/starter/installing.html).
+Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs, [Documentation](https://expressjs.com/en/starter/installing.html).
 
 ## Initial setup
 
@@ -43,9 +43,9 @@ Express.js, or simply Express, is a back end web application framework for build
     res.send(api_data);
   });
 
-  // If need dynamic path
+  // If you need dynamic path
   app.get('/path_name/:id', (req, res) => {
-    const id = req.params.id; // If need to convet it to number, just use "parseInt(req.params.id)"
+    const id = req.params.id; // If needed to convet id to number, just use "parseInt(req.params.id)"
     // Get the dynamic data, like this
     const data = api_data.find(every_data => every_data.id === id) || {};
     // Serve now
