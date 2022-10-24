@@ -2,19 +2,28 @@
 
 Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs, [Documentation](https://expressjs.com/en/starter/installing.html).
 
-## Initial setup
+## CORS
+
+CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
+
+### Initial setup
 
 1. Create a directory, then open it in terminal
 2. Initialize the node package manager, run "npm init" then follow the steps or "npm init -y"
-3. Install express, run "npm i express"
+3. Install express and cors, run "npm i express cors"
 4. Open "index.js" file in code editor and add the following lines
 ```
-  // Import(require) the express
+  // Require(import) the express
   const express = require('express');
+  // Require(import) the cors
+  const cors = require('cors');
   // Call the express in a variable
   const app = express();
   // Declare the port in a variable to run the application
   const port = process.env.PORT ||8000;
+
+  // Enable cors
+  app.use(cors());
 
   // Create an API(Get) to make sure application is running perfectly where we used two request(req) & response(res) parameters
   app.get('/', (req, res) => {
