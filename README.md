@@ -1,8 +1,8 @@
-# ExpressJS
+# [ExpressJS](https://expressjs.com/en/starter/installing.html)
 
-Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs, [Documentation](https://expressjs.com/en/starter/installing.html).
+Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs.
 
-## CORS
+## [CORS](https://expressjs.com/en/resources/middleware/cors.html)
 
 CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
 
